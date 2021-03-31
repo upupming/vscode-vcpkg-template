@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "vscode-vcpkg-template",
+  "version-string": "0.0.1",
+  "license": "MIT",
+  "builtin-baseline": "105456798402aa5f494ffeb3b19dd0d870656d39",
+  "dependencies": [
+    {
+      "name": "dcmtk",
+      "version>=": "3.6.5+_20191213",
+      "default-features": true,
+      "platform": "windows & x64"
+    },
+    {
+      "name": "sqlite3",
+      "version>=": "3.35.2",
+      "default-features": true,
+      "platform": "windows & x64"
+    }
+  ]
+}
